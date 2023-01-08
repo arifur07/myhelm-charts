@@ -1,0 +1,6 @@
+grafana:
+  service:
+    portName: "http-web"
+    type: NodePort
+    port: 30001
+  adminPassword: admin
